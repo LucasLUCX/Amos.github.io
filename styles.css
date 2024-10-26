@@ -1,0 +1,65 @@
+body {
+    background-color:#2C2C2C ;
+    color: #9C59D1;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+.profile_pic img {
+    display: block;
+    margin: auto;
+    border-radius: 160px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #9C59D1;
+    border-width: 4px;
+}
+
+.name {
+    font-family: 'Helvetica';
+    font-variant: small-caps;
+    font-size: 4em;
+    font-weight: 100;
+    color: #9C59D1;
+}
+
+.media {
+    padding-bottom: 12px;
+    padding-top: 8px;
+    border-radius: 64px;
+}
+
+.socials {
+    margin-top: 0.4em;  
+}
+
+.social_icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 64px;
+    height: 64px;
+    border-radius: 13px;    
+}
+
+.img_link {
+    position: relative;
+    display: inline-block;
+    
+}
